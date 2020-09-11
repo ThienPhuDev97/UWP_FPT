@@ -1,0 +1,217 @@
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\App.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\MainPage.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\T1907A.xr.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\T1907A.exe
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\T1907A.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\resources.pri
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\AppxManifest.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Core\AppxManifest.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Core\T1907A.exe
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\T1907A.build.appxrecipe
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\System.Runtime.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\T1907A.csprojAssemblyReference.cache
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\App.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\App.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\MainPage.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\MainPage.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\App.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\MainPage.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\App.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\MainPage.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\XamlSaveStateFile.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\T1907A.csproj.CoreCompileInputs.cache
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\T1907A.csproj.CopyComplete
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\T1907A.exe
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\T1907A.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\ResourceHandlingTask.state
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\priconfig.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\priconfig.xml.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\unfiltered.layout.resfiles
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\filtered.layout.resfiles
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\excluded.layout.resfiles
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\resources.resfiles
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\resources.resfiles.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\pri.resfiles
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\pri.resfiles.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\qualifiers.txt
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\qualifiers.txt.intermediate
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\ProjectArchitectures.txt
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\BlankPage1.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\BlankPage1.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\BlankPage1.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\BlankPage1.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\BlankPage1.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Example01.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Example01.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Example01.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Example01.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Example01.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\ColorCode.Core.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\ColorCode.Core.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\ColorCode.UWP.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\ColorCode.UWP.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Parsers.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Parsers.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactions.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Newtonsoft.Json.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\ColorCode.UWP.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214282760000000.json
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Layout\Example02.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example02.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example02.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example02.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example02.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Layout\Example03.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example03.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example03.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example03.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\Example03.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\FontAwesome.UWP\FontAwesome.otf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\FontAwesome.UWP.dll
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\FontAwesome.UWP.pri.xml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.g.i.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.g.cs
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.xaml
+D:\asp.net\Ki3Mon1\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.xbf
+D:\asp.net\Ki3Mon1\T1907A\T1907A\bin\x86\Debug\Layout\DanhBa.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\FontAwesome.UWP\FontAwesome.otf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\App.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\BlankPage1.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Example01.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\DanhBa.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example02.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example03.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\ExampleListView01.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\MainPage.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.xr.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.exe
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\resources.pri
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\AppxManifest.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Core\T1907A.exe
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.build.appxrecipe
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\ColorCode.Core.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\ColorCode.Core.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\ColorCode.UWP.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\ColorCode.UWP.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\FontAwesome.UWP.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Parsers.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Parsers.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactions.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\System.Runtime.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.csprojAssemblyReference.cache
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\App.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\App.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\BlankPage1.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\BlankPage1.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Example01.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Example01.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example02.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example02.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example03.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example03.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\ExampleListView01.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\ExampleListView01.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\MainPage.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\App.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\BlankPage1.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Example01.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example02.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example03.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\ExampleListView01.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\MainPage.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\App.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\BlankPage1.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Example01.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\DanhBa.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example02.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\Example03.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\ExampleListView01.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\MainPage.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.csproj.CoreCompileInputs.cache
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.csproj.CopyComplete
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\ColorCode.UWP.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\FontAwesome.UWP.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Animations.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.exe
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.pdb
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\priconfig.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\resources.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\pri.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\qualifiers.txt
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637214282760000000.json
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json

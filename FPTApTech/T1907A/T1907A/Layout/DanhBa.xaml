@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="T1907A.Layout.DanhBa"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1907A.Layout"
+    xmlns:models="using:T1907A.Models"
+    xmlns:fa="using:FontAwesome.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <RelativePanel Grid.Column="0">
+            <TextBox Margin="0,10,0,0" x:Name="Name" Width="180" Height="35" PlaceholderText="Name" Text=""/>
+            <TextBox Margin="0,10,0,0" RelativePanel.Below="Name" x:Name="Phone" Width="180" Height="35" PlaceholderText="Phone" Text=""/>
+            <TextBox Margin="0,10,0,0" RelativePanel.Below="Phone" x:Name="Address" Width="180" Height="35" PlaceholderText="Address" Text=""/>
+            <TextBox Margin="0,10,0,0" RelativePanel.Below="Address" x:Name="Job" Width="180" Height="35" PlaceholderText="Job" Text=""/>
+            <Button RelativePanel.Below="Job" Click="btnClick"  Margin="0,10,20,0" x:Name="btn" Content="Submit" Width="100" Height="35"/>
+
+        </RelativePanel>
+        
+            <ListView Grid.Column="1"  x:Name="LV">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Contact">
+                        <ListViewItem Margin="0,0,0,5" BorderBrush="Gray" BorderThickness="1,1,1,1">
+                            <RelativePanel>
+                                <fa:FontAwesome x:Name="icName" Icon="AddressCard"  Foreground="Chartreuse" Width="100px" />
+                                <TextBlock x:Name="TxtName" RelativePanel.RightOf="icName" Text="{x:Bind Name}"/>
+
+                                <fa:FontAwesome x:Name="icPhone" RelativePanel.Below="icName" Icon="Phone"   Foreground="Chartreuse" Width="100px" />
+                                <TextBlock x:Name="TxtPhone" RelativePanel.RightOf="icPhone"  RelativePanel.Below="TxtName" Text="{x:Bind Phone}"/>
+
+                                <fa:FontAwesome x:Name="icAddress" RelativePanel.Below="icPhone" Icon="Home"   Foreground="Chartreuse" Width="100px" />
+                                <TextBlock x:Name="TxtAddress" RelativePanel.RightOf="icAddress" RelativePanel.Below="TxtPhone" Text="{x:Bind Address}"/>
+
+                                <fa:FontAwesome x:Name="icJob" RelativePanel.Below="icAddress" Icon="BalanceScale"   Foreground="Chartreuse" Width="100px" />
+                                <TextBlock x:Name="TxtJob" RelativePanel.RightOf="icJob"  RelativePanel.Below="TxtAddress" Text="{x:Bind Job}"/>
+                               
+                        </RelativePanel>
+                        
+                    </ListViewItem>
+                    
+                </DataTemplate>
+                </ListView.ItemTemplate>
+            
+        </ListView>
+            
+        
+        
+    </Grid>
+</Page>
