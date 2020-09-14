@@ -13,7 +13,7 @@
         <TextBox Width="200" RelativePanel.Below="Name" Margin="0,10,0,0" x:Name="Phone" PlaceholderText="Phone" Text=""/>
         <TextBox Width="200" RelativePanel.Below="Phone" Margin="0,10,0,0" x:Name="Address" PlaceholderText="Address" Text=""/>
         <TextBox Width="200" RelativePanel.Below="Address" Margin="0,10,0,0" x:Name="Job" PlaceholderText="Job" Text=""/>
-        <Button x:Name="bt" Width="100" Height="30" Margin="0,10,0,0" RelativePanel.Below="Job" Content="Submit" />
+        <Button x:Name="bt" Width="100" Height="30" Margin="0,10,0,0" RelativePanel.Below="Job" Content="Submit" Click="save"/>
         <Button x:Name="btGoback" Width="90" Height="30" Margin="10,10,0,0" RelativePanel.RightOf="bt" RelativePanel.Below="Job" Content="GoBack"
             Click="backtoListContact"    />
     </RelativePanel>

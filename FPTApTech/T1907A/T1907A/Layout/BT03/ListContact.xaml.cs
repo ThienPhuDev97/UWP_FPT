@@ -26,13 +26,11 @@ namespace T1907A.Layout.BT03
         public ListContact()
         {
             this.InitializeComponent();
+            ViewModel.ViewModel_Contact vm = new ViewModel.ViewModel_Contact();
+            LV.ItemsSource = vm.Contacts;
         }
 
-        private void GV_Loaded(object sender, RoutedEventArgs e)
-        {
-            LV.Items.Add(new Contact("phu", 0971078123, "ha noi", "laptrinh"));
-            LV.Items.Add(new Contact("hanh", 0971078123, "ha noi", "laptrinh"));
-        }
+       
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -41,6 +39,7 @@ namespace T1907A.Layout.BT03
 
         private void addContact(object sender, RoutedEventArgs e)
         {
+            
             Home.contentFrame.Navigate(typeof(Add_Contact));
         }
     }

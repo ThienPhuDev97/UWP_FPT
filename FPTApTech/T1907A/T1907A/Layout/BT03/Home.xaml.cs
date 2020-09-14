@@ -61,10 +61,10 @@ namespace T1907A.Layout.BT03
 
         private void ListView_Loaded(object sender, RoutedEventArgs e)
         {
-            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E80F", 16)), "List Contact", "lst"));
-            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("EA4A", 16)), "Add Contact", "add"));
-            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E715", 16)), "Add Contact", "Mail"));
-            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E77B", 16)), "Add Contact", "Contact"));
+            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E80F", 16)), "Home", "lst"));
+            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("EA4A", 16)), "Contact", "add"));
+            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E715", 16)), "Email", "Mail"));
+            LV.Items.Add(new ProductItem((char)(Convert.ToInt32("E77B", 16)), "Customer", "Contact"));
         }
     }
 }

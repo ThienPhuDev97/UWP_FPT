@@ -11,7 +11,7 @@
 
 
     <Grid>
-        <ListView x:Name="LV" Loaded="GV_Loaded" >
+        <ListView x:Name="LV"  >
             <ListView.Header>
                 <Button Content="Add Contact" Width="100" Height="40" Margin="0,20,0,20" RelativePanel.Below="TxtBlock" Click="addContact"/>
             </ListView.Header>

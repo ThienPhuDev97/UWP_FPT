@@ -168,6 +168,8 @@
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\ProductItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ViewModel_Contact.cs" />
+    <Compile Include="ViewModel\ViewModel_Mail.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

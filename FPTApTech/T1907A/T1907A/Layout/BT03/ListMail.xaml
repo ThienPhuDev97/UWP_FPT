@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <GridView x:Name="GV" Loaded="GV_Loaded">
+        <GridView x:Name="GV">
             <GridView.Header>
                 <Button Content="Add Mail" Width="100" Height="40" Margin="0,20,0,0" RelativePanel.Below="TxtBlock" Click="Button_Click"/>
             </GridView.Header>

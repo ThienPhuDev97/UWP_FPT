@@ -31,5 +31,11 @@ namespace T1907A.Layout.BT03
         {
             Home.contentFrame.Navigate(typeof(BT03.ListContact));
         }
+
+        private void save(object sender, RoutedEventArgs e)
+        {
+            ViewModel.ViewModel_Contact.ContactList.Add(new Models.Contact(Name.Text,Convert.ToInt32(Phone.Text),Address.Text,Job.Text));
+            Home.contentFrame.Navigate(typeof(BT03.ListContact));
+        }
     }
 }

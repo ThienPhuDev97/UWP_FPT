@@ -29,7 +29,8 @@ namespace T1907A.Layout.BT03
 
         private void AddMail(object sender, RoutedEventArgs e)
         {
-
+            ViewModel.ViewModel_Mail.MailList.Add(new Models.Mail(Email.Text,Subject.Text, "description"));
+            Home.contentFrame.Navigate(typeof(ContactList));
         }
 
         private void gobach(object sender, RoutedEventArgs e)
