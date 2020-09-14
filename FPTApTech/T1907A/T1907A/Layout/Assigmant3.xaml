@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="T1907A.Layout.Assigmant3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1907A.Layout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:T1907A.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ListView x:Name="LV" Loaded="ListView_Loader72">
+
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="models:ProductItem">
+                <ListViewItem>
+                    <Grid>
+                        <FontIcon HorizontalAlignment="Left" FontFamily="Segoe MDL2 Assets" Glyph="{x:Bind Icon}"/>
+                        <TextBlock VerticalAlignment="Center" Margin="45,0,0,0" Text="{x:Bind Name}"/>
+                    </Grid>
+                </ListViewItem>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</Page>

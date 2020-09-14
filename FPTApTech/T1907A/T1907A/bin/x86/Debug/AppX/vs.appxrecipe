@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BC9BBBECB5B10B5A9A22DAB47F9BBBCFD75287942589C27753EFBED7F369C367</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8B49DC9E686EDD33E175D7FF566728D08D1315867504C237DC1A1DD5B03B8426</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ff324e07-9343-46b5-91e1-df7faf01b818_1.0.0.0_x86__maxjgp6jjnrpm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ff324e07-9343-46b5-91e1-df7faf01b818_maxjgp6jjnrpm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ff324e07-9343-46b5-91e1-df7faf01b818</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-11T00:55:27.800</Modified>
+      <Modified>2020-09-14T01:57:05.895</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.exe">
       <PackagePath>entrypoint\T1907A.exe</PackagePath>
-      <Modified>2020-09-11T00:55:19.088</Modified>
+      <Modified>2020-09-14T01:57:03.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -170,39 +170,67 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\T1907A.xr.xml">
       <PackagePath>T1907A.xr.xml</PackagePath>
-      <Modified>2020-09-11T00:55:17.944</Modified>
+      <Modified>2020-09-14T01:41:52.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.301</Modified>
+      <Modified>2020-09-14T01:57:02.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\BlankPage1.xbf">
       <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.301</Modified>
+      <Modified>2020-09-14T01:57:02.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Example01.xbf">
       <PackagePath>Example01.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.301</Modified>
+      <Modified>2020-09-14T01:57:02.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\AddContact.xbf">
+      <PackagePath>Layout\AddContact.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Assigmant3.xbf">
+      <PackagePath>Layout\Assigmant3.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\AddEmail.xbf">
+      <PackagePath>Layout\BT03\AddEmail.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\Add_Contact.xbf">
+      <PackagePath>Layout\BT03\Add_Contact.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\ListContact.xbf">
+      <PackagePath>Layout\BT03\ListContact.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\ListMail.xbf">
+      <PackagePath>Layout\BT03\ListMail.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\Home.xbf">
+      <PackagePath>Layout\BT03\Home.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT_03.xbf">
+      <PackagePath>Layout\BT_03.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\ContactList.xbf">
+      <PackagePath>Layout\ContactList.xbf</PackagePath>
+      <Modified>2020-09-14T01:57:02.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\DanhBa.xbf">
       <PackagePath>Layout\DanhBa.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.301</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example02.xbf">
-      <PackagePath>Layout\Example02.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.302</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example03.xbf">
-      <PackagePath>Layout\Example03.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.302</Modified>
+      <Modified>2020-09-14T01:57:02.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\ExampleListView01.xbf">
       <PackagePath>Layout\ExampleListView01.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.302</Modified>
+      <Modified>2020-09-14T01:57:02.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-11T00:55:18.302</Modified>
+      <Modified>2020-09-14T01:57:02.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -210,11 +238,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-11T00:55:24.402</Modified>
+      <Modified>2020-09-14T01:41:54.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Core\T1907A.exe">
       <PackagePath>T1907A.exe</PackagePath>
-      <Modified>2020-09-11T00:55:27.774</Modified>
+      <Modified>2020-09-14T01:57:05.889</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

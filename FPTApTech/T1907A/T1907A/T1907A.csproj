@@ -126,11 +126,35 @@
     <Compile Include="Example01.xaml.cs">
       <DependentUpon>Example01.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Layout\AddContact.xaml.cs">
+      <DependentUpon>AddContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Assigmant3.xaml.cs">
+      <DependentUpon>Assigmant3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT03\AddEmail.xaml.cs">
+      <DependentUpon>AddEmail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT03\Add_Contact.xaml.cs">
+      <DependentUpon>Add_Contact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT03\ListContact.xaml.cs">
+      <DependentUpon>ListContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT03\ListMail.xaml.cs">
+      <DependentUpon>ListMail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT03\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\BT_03.xaml.cs">
+      <DependentUpon>BT_03.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\ContactList.xaml.cs">
+      <DependentUpon>ContactList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Layout\DanhBa.xaml.cs">
       <DependentUpon>DanhBa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Layout\Example02.xaml.cs">
-      <DependentUpon>Example02.xaml</DependentUpon>
     </Compile>
     <Compile Include="Layout\ExampleListView01.xaml.cs">
       <DependentUpon>ExampleListView01.xaml</DependentUpon>
@@ -138,8 +162,11 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Assignment2.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\Mail.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\ProductItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,15 +201,43 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Layout\AddContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\Assigmant3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT03\AddEmail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT03\Add_Contact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT03\ListContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT03\ListMail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT03\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\BT_03.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Layout\ContactList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Layout\DanhBa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Layout\Example02.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Layout\Example03.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

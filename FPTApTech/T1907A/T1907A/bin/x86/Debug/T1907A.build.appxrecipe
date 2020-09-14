@@ -139,14 +139,35 @@
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Example01.xbf">
       <PackagePath>Example01.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\AddContact.xbf">
+      <PackagePath>Layout\AddContact.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Assigmant3.xbf">
+      <PackagePath>Layout\Assigmant3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\AddEmail.xbf">
+      <PackagePath>Layout\BT03\AddEmail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\Add_Contact.xbf">
+      <PackagePath>Layout\BT03\Add_Contact.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\ListContact.xbf">
+      <PackagePath>Layout\BT03\ListContact.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\ListMail.xbf">
+      <PackagePath>Layout\BT03\ListMail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT03\Home.xbf">
+      <PackagePath>Layout\BT03\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\BT_03.xbf">
+      <PackagePath>Layout\BT_03.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\ContactList.xbf">
+      <PackagePath>Layout\ContactList.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\DanhBa.xbf">
       <PackagePath>Layout\DanhBa.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example02.xbf">
-      <PackagePath>Layout\Example02.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\Example03.xbf">
-      <PackagePath>Layout\Example03.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\Layout\ExampleListView01.xbf">
       <PackagePath>Layout\ExampleListView01.xbf</PackagePath>
