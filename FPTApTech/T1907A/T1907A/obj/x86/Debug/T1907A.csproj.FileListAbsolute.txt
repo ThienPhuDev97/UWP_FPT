@@ -250,3 +250,7 @@ C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT03\Add_Contact.xaml
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT03\Add_Contact.xbf
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.csprojAssemblyReference.cache
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.xbf

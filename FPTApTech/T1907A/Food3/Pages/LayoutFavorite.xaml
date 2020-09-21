@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Food3.Pages.LayoutFavorite"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Food3.Pages"
+    xmlns:models="using:Food3.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <CommandBar x:Name="CmBar">
+            <CommandBar.Content>
+                <Button x:Name="ButtonBack" Click="ButtonBack_Click" Style="{StaticResource NavigationBackButtonNormalStyle}" />
+            </CommandBar.Content>
+        </CommandBar>
+        <GridView x:Name="GV" RelativePanel.Below="CmBar">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="models:Product">
+                    <RelativePanel>
+                        
+                            <TextBlock x:Name="txtName" Text="{x:Bind name}"/>
+                            <TextBlock Text="{x:Bind Price}" RelativePanel.Below="txtName"/>
+
+                    </RelativePanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+           
+        </GridView>
+    </RelativePanel>
+</Page>
