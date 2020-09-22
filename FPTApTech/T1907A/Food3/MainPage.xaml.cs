@@ -29,7 +29,7 @@ namespace Food3
     public sealed partial class MainPage : Page
     {
         public static List<Product> FavoriteProduct;
-        public static List<AddToCart> listCart;
+        public static List<Cart> listCart;
         public static Frame contentFrame;
         private readonly string stringUrl = String.Format("https://foodgroup.herokuapp.com/api/menu");
         public MainPage()
@@ -68,9 +68,24 @@ namespace Food3
             MainFrame.Navigate(typeof(LayoutFavorite),FavoriteProduct);// chỗ này nè
         }
 
-        private void btnCard_Click(object sender, RoutedEventArgs e)
+       
+
+        private void FIhome_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            MainFrame.Navigate(typeof(ShowCard), listCart);
+            MainFrame.Navigate(typeof(Home));
         }
+
+        private void FIheart_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(LayoutFavorite));
+        }
+
+        //show layout listcart order
+        private void FIcart_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(ShowCart));
+        }
+
+        
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Food3.Adapters;
 using Food3.Models;
+using Food3.Services;
 using SQLitePCL;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,26 +33,37 @@ namespace Food3.Pages
             GetFavourite();
         }
 
+      
+      
         private void GetFavourite()
         {
-            SQLiteHelper sQLiteHelper = SQLiteHelper.createInstance();
-            SQLiteConnection sQLiteConnection = sQLiteHelper.sQLiteConnection;
-            var sqlString = "SELECT * FROM Products";
-            var stt = sQLiteConnection.Prepare(sqlString);
-            List<Product> arr = new List<Product>();
-            while (SQLiteResult.ROW == stt.Step())
-            {
-                var id = Convert.ToInt32(stt[0]);
-                var name = (string)stt[1];
-                var image = (string)stt[2];
-                var description = (string)stt[3];
-                var price = Convert.ToInt32(stt[4]);
 
-                arr.Add(new Product(id, name, image, description, price));
+            ProductList.ItemsSource = FavoriteService.getData();
+             
+        }
+
+        private async void FIclose_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Product product = ProductList.SelectedItem as Product; // lay doi tuong click trong ds favorite
+            ContentDialog ms = new ContentDialog()
+            {
+                Title = "Thông Báo",
+                Content="Bạn có muốn xóa sản phẩm khỏi danh sách",
+                PrimaryButtonText="OK",
+                CloseButtonText="Close"
+   
+            };
+            ContentDialogResult result = await ms.ShowAsync();
+
+
+            if (result == ContentDialogResult.Primary)
+            {
+                FavoriteService.deleteProduct(product.id);
+
+                GetFavourite();
             }
-            //Console.WriteLine(arr);
-            //  var x = arr;
-            ProductList.ItemsSource = arr;
+           
+            
         }
     }
 }

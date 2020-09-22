@@ -1,4 +1,5 @@
 ﻿using Food3.Models;
+using Food3.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -21,25 +22,25 @@ namespace Food3.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ShowCard : Page
+    public sealed partial class ShowCart : Page
     {
-        public ShowCard()
+        public ShowCart()
         {
             this.InitializeComponent();
-        }
-        protected async override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            GV.ItemsSource = e.Parameter as List<AddToCart>;
-
+            getCart();
 
         }
-
-        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        public void getCart()
         {
-            if (this.Frame.CanGoBack)
-            {
-                this.Frame.GoBack();
-            }
+            List<Cart> list = AddCartService.getDataCart();
+            GV_Cart.ItemsSource = list;
+        }
+
+        private void FIclose_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            var id = (GV_Cart.SelectedItem as Cart).id;
+            AddCartService.deleteProduct(id);
+            getCart();
         }
     }
 }

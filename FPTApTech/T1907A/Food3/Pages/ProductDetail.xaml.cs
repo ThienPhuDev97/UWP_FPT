@@ -3,6 +3,7 @@ using Food3.Models;
 using Food3.Services;
 using SQLitePCL;
 using System;
+using System.Collections.Generic;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -36,19 +37,12 @@ namespace Food3.Pages
 
         private void BtnLike_Click(object sender, RoutedEventArgs e)
         {
-            SQLiteHelper sQLiteHelper = SQLiteHelper.createInstance();
-
-            SQLiteConnection sQLiteConnection = sQLiteHelper.sQLiteConnection;
-            var sqlString = "INSERT INTO Products(id,name,image,description,price) VALUES(?,?,?,?,?)";
-            var stt = sQLiteConnection.Prepare(sqlString);
-            stt.Bind(1, Detail.id);
-            stt.Bind(2, Detail.name);
-            stt.Bind(3, Detail.image);
-            stt.Bind(4, Detail.description);
-            stt.Bind(5, Detail.price);
-            stt.Step();
+            
+            FavoriteService.InsertProduct(Detail);
             MainPage.contentFrame.Navigate(typeof(LayoutFavorite));
         }
+
+        
 
         private void btBack(object sender, RoutedEventArgs e)
         {
@@ -56,6 +50,39 @@ namespace Food3.Pages
             {
                 this.Frame.GoBack();
             }
+        }
+
+        private void BtnOrder_Click(object sender, RoutedEventArgs e)
+        {
+
+            if(TbQuantity.Text != "")
+            {
+                //check xem đã tồn tại sản phẩm trong giỏ hàng chưa
+                int soluong = 0;
+                List<Cart> listSelected = AddCartService.getDataCart();
+                foreach(var item in listSelected)
+                {
+                    if(item.id == Detail.id)
+                    {
+                        soluong = item.Quantity +Convert.ToInt32(TbQuantity.Text);
+                        break;
+                    }
+                }
+                if (soluong !=0)
+                {
+                    AddCartService.updateQuantity(Detail.id, soluong);
+                    MainPage.contentFrame.Navigate(typeof(ShowCart));
+                    return;
+                }
+
+                Cart c = new Cart(Detail.id, Detail.name, Detail.image, Detail.description, Detail.price, Convert.ToInt32(TbQuantity.Text));
+                AddCartService.AddtoCart(c);
+                TbQuantity.Text = "";
+                MainPage.contentFrame.Navigate(typeof(ShowCart));
+            }
+            
+
+
         }
     }
 }

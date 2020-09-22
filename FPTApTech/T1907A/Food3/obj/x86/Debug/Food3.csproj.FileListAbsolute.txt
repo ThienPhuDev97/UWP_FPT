@@ -63,11 +63,6 @@ C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\LayoutFavorite.g.cs
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\LayoutFavorite.xaml
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\LayoutFavorite.xbf
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ShowCard.xbf
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCard.g.i.cs
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCard.g.cs
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCard.xaml
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCard.xbf
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\SQLitePCL.Ext.dll
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\SQLitePCL.Ext.pri
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\SQLitePCL.dll
@@ -75,4 +70,9 @@ C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\resources.en.resfiles
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\resources.en.resfiles.intermediate
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\SQLitePCL.Ext.pri.xml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ShowCart.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCart.g.i.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCart.g.cs
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCart.xaml
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Pages\ShowCart.xbf
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\obj\x86\Debug\Food3.csprojAssemblyReference.cache

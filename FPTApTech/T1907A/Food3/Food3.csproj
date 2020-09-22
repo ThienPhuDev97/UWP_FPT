@@ -124,7 +124,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\AddToCart.cs" />
+    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\CategoryDetail.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuItem.cs" />
@@ -143,11 +143,13 @@
     <Compile Include="Pages\ProductDetail.xaml.cs">
       <DependentUpon>ProductDetail.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ShowCard.xaml.cs">
-      <DependentUpon>ShowCard.xaml</DependentUpon>
+    <Compile Include="Pages\ShowCart.xaml.cs">
+      <DependentUpon>ShowCart.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AddCartService.cs" />
     <Compile Include="Services\CategoryService.cs" />
+    <Compile Include="Services\FavoriteService.cs" />
     <Compile Include="Services\FoodDetailService.cs" />
     <Compile Include="Services\ProductServices.cs" />
   </ItemGroup>
@@ -193,7 +195,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\ShowCard.xaml">
+    <Page Include="Pages\ShowCart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

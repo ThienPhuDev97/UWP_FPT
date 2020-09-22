@@ -16,27 +16,41 @@ namespace Food3.Adapters
         {
             if (_sQLiteHelper == null)
             {
-                _sQLiteHelper = new SQLiteHelper();
+                var sql = @"CREATE TABLE IF NOT EXISTS Products(id integer primary key, name varchar(200), image varchar(200), description varchar(200), price integer)";
+                _sQLiteHelper = new SQLiteHelper(sql);
             }
             return _sQLiteHelper;
         }
         //tao ket noi
-        private SQLiteHelper()
+        private SQLiteHelper(string sql)
         {
             sQLiteConnection = new SQLiteConnection(DB_Name);
-            CreateProductTable();
+            CreateTable(sql);
         }
+
         public SQLiteConnection sQLiteConnection
         {
             get;
             private set;
         }
         // tao table
-        private void CreateProductTable()
+        private void CreateTable(string sql)
         {
-            var sql = @"CREATE TABLE IF NOT EXISTS Products(id integer primary key, name varchar(200), image varchar(200), description varchar(200), price integer)";
+           
             var statement = sQLiteConnection.Prepare(sql);
             statement.Step();
         }
+
+        public static SQLiteHelper createInstance_Cart()
+        {
+            if (_sQLiteHelper == null)
+            {
+                var sql = @"CREATE TABLE IF NOT EXISTS Carts(id integer primary key, name varchar(200),
+                 image varchar(200), description varchar(200), price integer,quantity integer)";
+                _sQLiteHelper = new SQLiteHelper(sql);
+            }
+            return _sQLiteHelper;
+        }
+
     }
 }
