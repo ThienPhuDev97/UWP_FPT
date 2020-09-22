@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+SQLitePCL.Ext.dll
+SQLitePCL.Ext.pri
 Assets\food.jpg
 Assets\LockScreenLogo.scale-200.png
 Assets\logo.png
@@ -15,4 +17,5 @@ Pages\Category.xbf
 Pages\Home.xbf
 Pages\LayoutFavorite.xbf
 Pages\ProductDetail.xbf
+Pages\ShowCard.xbf
 Properties\Default.rd.xml

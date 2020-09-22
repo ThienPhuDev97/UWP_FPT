@@ -1,20 +1,10 @@
 ﻿using Food3.Adapters;
 using Food3.Models;
 using Food3.Services;
+using SQLitePCL;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 
@@ -33,28 +23,39 @@ namespace Food3.Pages
             this.InitializeComponent();
         }
 
-        private Product product { get; set; }
-
-        protected async override void OnNavigatedTo(NavigationEventArgs e)
+        private Product Detail
         {
-            product = e.Parameter as Product;
-            ButtonBack.IsEnabled = this.Frame.CanGoBack;
-            Models.ProductDetail p = await service.todaySpecial(product.id);
-            product = p.data;
-
+            get;
+            set;
         }
 
-        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            Detail = e.Parameter as Product;
+        }
+
+        private void BtnLike_Click(object sender, RoutedEventArgs e)
+        {
+            SQLiteHelper sQLiteHelper = SQLiteHelper.createInstance();
+
+            SQLiteConnection sQLiteConnection = sQLiteHelper.sQLiteConnection;
+            var sqlString = "INSERT INTO Products(id,name,image,description,price) VALUES(?,?,?,?,?)";
+            var stt = sQLiteConnection.Prepare(sqlString);
+            stt.Bind(1, Detail.id);
+            stt.Bind(2, Detail.name);
+            stt.Bind(3, Detail.image);
+            stt.Bind(4, Detail.description);
+            stt.Bind(5, Detail.price);
+            stt.Step();
+            MainPage.contentFrame.Navigate(typeof(LayoutFavorite));
+        }
+
+        private void btBack(object sender, RoutedEventArgs e)
         {
             if (this.Frame.CanGoBack)
             {
                 this.Frame.GoBack();
             }
-        }
-
-        private void ClickFavorite(object sender, RoutedEventArgs e)
-        {
-            MainPage.FavoriteProduct.Add(product);
         }
     }
 }

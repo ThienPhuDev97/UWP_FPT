@@ -43,6 +43,7 @@
                     <Button x:Name="btnToday" Content="TodaySpecial" Width="100"/>
 
                     <Button x:Name="btnFavorite" Content="Favorite" Width="auto" RelativePanel.RightOf="btnToday" Click="btnFavorite_Click"/>
+                    <Button x:Name="btnCard" Content="Card" Width="auto" RelativePanel.RightOf="btnFavorite" Click="btnCard_Click"/>
                 </RelativePanel>
                 <ScrollViewer Grid.Row="2" Margin="10" Loaded="ScrollViewer_Loaded">
                     <Frame Background="#f0f0f0" x:Name="MainFrame"/>

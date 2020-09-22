@@ -1,4 +1,6 @@
-﻿using Food3.Models;
+﻿using Food3.Adapters;
+using Food3.Models;
+using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,22 +28,29 @@ namespace Food3.Pages
         public LayoutFavorite()
         {
             this.InitializeComponent();
+            GetFavourite();
         }
 
-        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        private void GetFavourite()
         {
-            if (this.Frame.CanGoBack)
+            SQLiteHelper sQLiteHelper = SQLiteHelper.createInstance();
+            SQLiteConnection sQLiteConnection = sQLiteHelper.sQLiteConnection;
+            var sqlString = "SELECT * FROM Products";
+            var stt = sQLiteConnection.Prepare(sqlString);
+            List<Product> arr = new List<Product>();
+            while (SQLiteResult.ROW == stt.Step())
             {
-                this.Frame.GoBack();
+                var id = Convert.ToInt32(stt[0]);
+                var name = (string)stt[1];
+                var image = (string)stt[2];
+                var description = (string)stt[3];
+                var price = Convert.ToInt32(stt[4]);
+
+                arr.Add(new Product(id, name, image, description, price));
             }
-        }
-
-        
-        protected async override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            GV.ItemsSource = e.Parameter as List<Product>;
-            
-
+            //Console.WriteLine(arr);
+            //  var x = arr;
+            ProductList.ItemsSource = arr;
         }
     }
 }

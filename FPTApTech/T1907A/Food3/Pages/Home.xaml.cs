@@ -43,9 +43,7 @@ namespace Food3.Pages
         private void GridViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
             Product product = ProductList.SelectedItem as Product;
-            MainPage.contentFrame.Navigate(typeof(ProductDetail),product);
-
-           
+            MainPage.contentFrame.Navigate(typeof(ProductDetail), product);
         }
     }
 }

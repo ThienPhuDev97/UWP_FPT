@@ -10,6 +10,7 @@ using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -28,6 +29,7 @@ namespace Food3
     public sealed partial class MainPage : Page
     {
         public static List<Product> FavoriteProduct;
+        public static List<AddToCart> listCart;
         public static Frame contentFrame;
         private readonly string stringUrl = String.Format("https://foodgroup.herokuapp.com/api/menu");
         public MainPage()
@@ -48,6 +50,7 @@ namespace Food3
             }
         }
 
+        
         private void ListViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
             MenuItem menuItem = MN.SelectedItem as MenuItem;
@@ -63,6 +66,11 @@ namespace Food3
         private void btnFavorite_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(typeof(LayoutFavorite),FavoriteProduct);// chỗ này nè
+        }
+
+        private void btnCard_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(ShowCard), listCart);
         }
     }
 }

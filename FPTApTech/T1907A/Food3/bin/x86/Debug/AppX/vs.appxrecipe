@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DE6C8198A9380FEA35DB5840C5891E538065EA4504714DC297A2C0DA749114B1</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1BE6CE5ADE38B20B46374F09E02892EA9345F3BFF88308ABF2022BB5D9EF63BB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b351f9c2-12ad-489a-8f5d-4d3878087f9e_1.0.0.0_x86__maxjgp6jjnrpm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b351f9c2-12ad-489a-8f5d-4d3878087f9e_maxjgp6jjnrpm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b351f9c2-12ad-489a-8f5d-4d3878087f9e</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T01:57:48.273</Modified>
+      <Modified>2020-09-22T00:09:13.802</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Food3.exe">
       <PackagePath>entrypoint\Food3.exe</PackagePath>
-      <Modified>2020-09-21T01:57:47.553</Modified>
+      <Modified>2020-09-22T00:09:10.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -46,9 +46,21 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T07:01:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.33.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2020-09-21T07:30:07.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\Assets\food.jpg">
       <PackagePath>Assets\food.jpg</PackagePath>
@@ -98,31 +110,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Food3.xr.xml">
       <PackagePath>Food3.xr.xml</PackagePath>
-      <Modified>2020-09-21T01:26:23.695</Modified>
+      <Modified>2020-09-22T00:09:10.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.236</Modified>
+      <Modified>2020-09-21T09:46:11.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.237</Modified>
+      <Modified>2020-09-21T09:46:11.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.237</Modified>
+      <Modified>2020-09-21T09:46:11.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.237</Modified>
+      <Modified>2020-09-21T09:46:11.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\LayoutFavorite.xbf">
       <PackagePath>Pages\LayoutFavorite.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.238</Modified>
+      <Modified>2020-09-21T09:46:11.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ProductDetail.xbf">
       <PackagePath>Pages\ProductDetail.xbf</PackagePath>
-      <Modified>2020-09-21T01:57:47.238</Modified>
+      <Modified>2020-09-22T00:09:10.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ShowCard.xbf">
+      <PackagePath>Pages\ShowCard.xbf</PackagePath>
+      <Modified>2020-09-21T09:46:11.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-21T01:26:24.290</Modified>
+      <Modified>2020-09-21T09:34:31.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Core\Food3.exe">
       <PackagePath>Food3.exe</PackagePath>
-      <Modified>2020-09-21T01:57:48.259</Modified>
+      <Modified>2020-09-22T00:09:13.576</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

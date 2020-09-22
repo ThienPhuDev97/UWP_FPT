@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HSofQIDES4J3h50FJqcrskwUJPyLYAuzA8crhHxInGhrq5iUv4mv316v4AydPhtMfAdOY0tQCUtLt7egeOe0uA==",
+  "dgSpecHash": "h2l7OjCP3GYqA8xblp5zVFFnmv/zLyJzwS3LUhTjRCxEnfN9ik3mshzXSD03/lmrZKt0f0xIGrZCE6JmR8Zhig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Thien Phu\\Desktop\\JavaGit\\UWP_FPT\\FPTApTech\\T1907A\\T1907A\\T1907A.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.9\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.9.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.9\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.9.nupkg.sha512",
     "C:\\Users\\Thien Phu\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Thien Phu\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512",
     "C:\\Users\\Thien Phu\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Thien Phu\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Thien Phu\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
