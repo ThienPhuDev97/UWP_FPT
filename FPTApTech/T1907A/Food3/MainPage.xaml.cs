@@ -29,7 +29,7 @@ namespace Food3
     public sealed partial class MainPage : Page
     {
         public static List<Product> FavoriteProduct;
-        public static List<Cart> listCart;
+       // public static List<Cart> listCart;
         public static Frame contentFrame;
         private readonly string stringUrl = String.Format("https://foodgroup.herokuapp.com/api/menu");
         public MainPage()

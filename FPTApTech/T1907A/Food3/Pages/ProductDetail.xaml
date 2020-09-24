@@ -29,7 +29,7 @@
                 <RelativePanel>
                     <Button Click="BtnLike_Click"  x:Name="BtnLike" Content="Like"/>
                     <Button x:Name="BtnOrder" Click="BtnOrder_Click" RelativePanel.RightOf="BtnLike" Margin="20,0,0,0" Width="100" Content="Add To Cart"/>
-                    <TextBox x:Name="TbQuantity" RelativePanel.RightOf="BtnOrder" Margin="20,0,0,0"/>
+                    <TextBox x:Name="TbQuantity" BeforeTextChanging="TbQuantity_BeforeTextChanging" RelativePanel.RightOf="BtnOrder" Margin="20,0,0,0"/>
                     
                 </RelativePanel>
                 

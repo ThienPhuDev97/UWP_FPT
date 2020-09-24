@@ -45,8 +45,8 @@ namespace Food3.Adapters
         {
             if (_sQLiteHelper == null)
             {
-                var sql = @"CREATE TABLE IF NOT EXISTS Carts(id integer primary key, name varchar(200),
-                 image varchar(200), description varchar(200), price integer,quantity integer)";
+                var sql = @"CREATE TABLE IF NOT EXISTS Cartss(id integer primary key, name varchar(200),
+                 image varchar(200), price integer,qty integer)";
                 _sQLiteHelper = new SQLiteHelper(sql);
             }
             return _sQLiteHelper;

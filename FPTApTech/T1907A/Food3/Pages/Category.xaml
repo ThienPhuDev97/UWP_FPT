@@ -14,9 +14,20 @@
                 <Button x:Name="ButtonBack" Click="ButtonBack_Click" Style="{StaticResource NavigationBackButtonNormalStyle}" />
             </CommandBar.Content>
         </CommandBar>
-        
-        <TextBlock  RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="10" FontWeight="SemiBold" FontSize="18" Foreground="#232323" x:Name="CatName" Text="{x:Bind CatDetail.name}"/>
-        <GridView Margin="0,20,0,0" RelativePanel.Below="CmBar" x:Name="ProductList">
+
+        <CommandBar RelativePanel.RightOf="CmBar" Width="230" HorizontalAlignment="Right" x:Name="CmSearch" Background="White" Margin="20,8,0,20" >
+            <CommandBar.Content>
+                <TextBox TextChanged="tbSearch_TextChanged" Width="200" BorderBrush="red" BorderThickness="1" x:Name="tbSearch"  PlaceholderText="Tim kiem" 
+                           HorizontalAlignment="Center" />
+            </CommandBar.Content>
+        </CommandBar>
+        <ComboBox PlaceholderText="Filter" Width="200" RelativePanel.RightOf="CmSearch" Margin="0,8,0,0" HorizontalAlignment="Right" SelectionChanged="ColorComboBox_SelectionChanged">
+            <x:String>SortByName</x:String>
+            <x:String>SortByPrice</x:String>
+        </ComboBox>
+
+        <TextBlock RelativePanel.Below="CmBar"  RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,60,0,0" FontWeight="SemiBold" FontSize="18" Foreground="#232323" x:Name="CatName" Text="{x:Bind CatDetail.name}"/>
+        <GridView Margin="0,20,0,0" RelativePanel.Below="CatName" x:Name="ProductList">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="models:Product">
                     <GridViewItem Tapped="GridViewItem_Tapped_1"

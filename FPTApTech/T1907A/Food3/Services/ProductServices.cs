@@ -1,6 +1,7 @@
 ﻿using Food3.Adapters;
 using Food3.Models;
 using Newtonsoft.Json;
+using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,5 +27,7 @@ namespace Food3.Services
             }
             return null;
         }
+
+        
     }
 }

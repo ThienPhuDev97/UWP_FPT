@@ -2,11 +2,14 @@
 using Food3.Services;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.ServiceModel.Channels;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -44,6 +47,67 @@ namespace Food3.Pages
         {
             Product product = ProductList.SelectedItem as Product;
             MainPage.contentFrame.Navigate(typeof(ProductDetail), product);
+        }
+
+      
+
+        private async void tbSearch_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            List<Product> listSearch = new List<Product>();
+           if(e.Key == Windows.System.VirtualKey.Enter)
+            {
+                ProductList productList = await _productServices.TodaySpecial();
+                if(productList != null)
+                {
+                    foreach(var item in productList.data)
+                    {
+                        if (item.name.Contains(tbSearch.Text)) 
+                        {
+                            listSearch.Add(item);
+                        }
+                    }
+                    // đổ dữ liệu lấy dc vào giao diện
+                    ProductList.ItemsSource = listSearch;
+                }
+            }
+
+        }
+
+        private async void tbSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            List<Product> listSearch = new List<Product>();
+            
+                ProductList productList = await _productServices.TodaySpecial();
+                if (productList != null)
+                {
+                    foreach (var item in productList.data)
+                    {
+                        if (item.name.Contains(tbSearch.Text))
+                        {
+                            listSearch.Add(item);
+                        }
+                    }
+                    // đổ dữ liệu lấy dc vào giao diện
+                    ProductList.ItemsSource = listSearch;
+                }
+            
+        }
+
+        private async void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string select = e.AddedItems[0].ToString();
+            if (select.Equals("SortByName"))
+            {
+                ProductList productList = await _productServices.TodaySpecial();
+                var ProductSortByPrice = productList.data.OrderBy(P => P.name);
+                ProductList.ItemsSource = ProductSortByPrice;
+            }
+            else
+            {
+                ProductList productList = await _productServices.TodaySpecial();
+                var ProductSortByPrice = productList.data.OrderBy(P => P.price);
+                ProductList.ItemsSource = ProductSortByPrice;
+            }
         }
     }
 }

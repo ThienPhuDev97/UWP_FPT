@@ -29,7 +29,7 @@
                 <RelativePanel>
                     <Button x:ConnectionId='7'                        x:Name="BtnLike" Content="Like"/>
                     <Button x:ConnectionId='8' x:Name="BtnOrder"                        RelativePanel.RightOf="BtnLike" Margin="20,0,0,0" Width="100" Content="Add To Cart"/>
-                    <TextBox x:ConnectionId='9' x:Name="TbQuantity" RelativePanel.RightOf="BtnOrder" Margin="20,0,0,0"/>
+                    <TextBox x:ConnectionId='9' x:Name="TbQuantity"                                                    RelativePanel.RightOf="BtnOrder" Margin="20,0,0,0"/>
                     
                 </RelativePanel>
                 

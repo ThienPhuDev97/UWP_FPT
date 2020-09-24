@@ -50,9 +50,47 @@ namespace Food3.Pages
        
         private void GridViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
         {
+            //click vao san pham=> chi tiet san pham
             Product product = ProductList.SelectedItem as Product;
             MainPage.contentFrame.Navigate(typeof(ProductDetail), product);
 
+        }
+
+        private async void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+
+            string select = e.AddedItems[0].ToString();
+            if (select.Equals("SortByName"))
+            {
+                Models.CategoryDetail catDetail = await _categoryService.CategoryDetail(CatDetail.id);
+                ProductList.ItemsSource = catDetail.data.foods.OrderBy(P => P.name);
+               
+            }
+            else
+            {
+                Models.CategoryDetail catDetail = await _categoryService.CategoryDetail(CatDetail.id);
+                ProductList.ItemsSource = catDetail.data.foods.OrderBy(P => P.price);
+            }
+        }
+
+        private async void tbSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            List<Product> listSearch = new List<Product>();
+            Models.CategoryDetail catDetail = await _categoryService.CategoryDetail(CatDetail.id);
+            var list = catDetail.data.foods;
+            if (list != null)
+            {
+                foreach (var item in list)
+                {
+                    if (item.name.Contains(tbSearch.Text))
+                    {
+                        listSearch.Add(item);
+                    }
+                }
+                // đổ dữ liệu lấy dc vào giao diện
+                ProductList.ItemsSource = listSearch;
+            }
         }
     }
 }
