@@ -250,7 +250,10 @@ C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT03\Add_Contact.xaml
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT03\Add_Contact.xbf
 C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\T1907A.csprojAssemblyReference.cache
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.g.i.cs
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.g.cs
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.xaml
-C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\Layout\BT04\Home.xbf
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\SQLitePCL.Ext.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\SQLitePCL.Ext.pri
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\bin\x86\Debug\SQLitePCL.dll
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\SQLitePCL\en\SQLitePCL.Resources.resw
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\resources.en.resfiles
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\resources.en.resfiles.intermediate
+C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\T1907A\obj\x86\Debug\SQLitePCL.Ext.pri.xml

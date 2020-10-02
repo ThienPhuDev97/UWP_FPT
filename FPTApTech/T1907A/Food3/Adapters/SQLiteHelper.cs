@@ -51,6 +51,16 @@ namespace Food3.Adapters
             }
             return _sQLiteHelper;
         }
+        public static SQLiteHelper createInstance_Account()
+        {
+            if (_sQLiteHelper == null)
+            {
+                var sql = @"CREATE TABLE IF NOT EXISTS Account(username varchar(200),
+                password integer)";
+                _sQLiteHelper = new SQLiteHelper(sql);
+            }
+            return _sQLiteHelper;
+        }
 
     }
 }

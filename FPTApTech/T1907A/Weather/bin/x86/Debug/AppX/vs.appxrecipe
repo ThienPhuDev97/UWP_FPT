@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-29T03:44:01.870</Modified>
+      <Modified>2020-09-30T06:44:05.202</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\Weather.exe">
       <PackagePath>entrypoint\Weather.exe</PackagePath>
-      <Modified>2020-09-29T03:44:01.212</Modified>
+      <Modified>2020-09-30T06:43:56.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,19 +90,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\Weather.xr.xml">
       <PackagePath>Weather.xr.xml</PackagePath>
-      <Modified>2020-09-29T03:36:42.068</Modified>
+      <Modified>2020-09-30T06:43:55.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-29T02:57:16.082</Modified>
+      <Modified>2020-09-30T06:43:55.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-29T02:57:16.082</Modified>
+      <Modified>2020-09-30T06:43:55.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2020-09-29T03:44:00.966</Modified>
+      <Modified>2020-09-30T06:43:55.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Weather\bin\x86\Debug\Core\Weather.exe">
       <PackagePath>Weather.exe</PackagePath>
-      <Modified>2020-09-29T03:44:01.858</Modified>
+      <Modified>2020-09-30T06:43:58.638</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

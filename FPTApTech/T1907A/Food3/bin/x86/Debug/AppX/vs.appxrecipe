@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-24T09:15:17.792</Modified>
+      <Modified>2020-10-02T09:16:55.806</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Food3.exe">
       <PackagePath>entrypoint\Food3.exe</PackagePath>
-      <Modified>2020-09-24T09:15:15.975</Modified>
+      <Modified>2020-10-02T09:16:54.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -110,35 +110,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Food3.xr.xml">
       <PackagePath>Food3.xr.xml</PackagePath>
-      <Modified>2020-09-24T09:15:15.472</Modified>
+      <Modified>2020-10-02T09:00:54.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.522</Modified>
+      <Modified>2020-10-02T09:16:54.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.522</Modified>
+      <Modified>2020-10-02T09:16:54.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\Category.xbf">
       <PackagePath>Pages\Category.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.522</Modified>
+      <Modified>2020-10-02T09:16:54.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\DemoFile.xbf">
+      <PackagePath>Pages\DemoFile.xbf</PackagePath>
+      <Modified>2020-10-02T09:16:54.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\GiaoDien.xbf">
+      <PackagePath>Pages\GiaoDien.xbf</PackagePath>
+      <Modified>2020-10-02T09:16:54.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.523</Modified>
+      <Modified>2020-10-02T09:16:54.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\LayoutFavorite.xbf">
       <PackagePath>Pages\LayoutFavorite.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.523</Modified>
+      <Modified>2020-10-02T09:16:54.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ProductDetail.xbf">
       <PackagePath>Pages\ProductDetail.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.523</Modified>
+      <Modified>2020-10-02T09:16:54.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Pages\ShowCart.xbf">
       <PackagePath>Pages\ShowCart.xbf</PackagePath>
-      <Modified>2020-09-24T09:15:15.523</Modified>
+      <Modified>2020-10-02T09:16:54.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -146,11 +154,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-24T00:54:40.102</Modified>
+      <Modified>2020-10-02T09:16:54.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Thien Phu\Desktop\JavaGit\UWP_FPT\FPTApTech\T1907A\Food3\bin\x86\Debug\Core\Food3.exe">
       <PackagePath>Food3.exe</PackagePath>
-      <Modified>2020-09-24T09:15:17.729</Modified>
+      <Modified>2020-10-02T09:16:55.796</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

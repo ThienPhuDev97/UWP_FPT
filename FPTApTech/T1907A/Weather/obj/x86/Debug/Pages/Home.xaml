@@ -23,7 +23,7 @@
             <TextBlock x:ConnectionId='13'                                  RelativePanel.RightOf="img" RelativePanel.Below="description" Margin="0,10,0,0" HorizontalTextAlignment="Center" FontSize="50"/>
             
         </RelativePanel>
-        <RelativePanel Grid.Column="1">
+        <RelativePanel Grid.Column="1" Margin="0,80,0,0">
             <TextBlock x:ConnectionId='2' Text="Precipitation :" x:Name="t1"/>
             <TextBlock x:ConnectionId='3'                                 x:Name="precipitation" RelativePanel.RightOf="t1" Margin="10,0,0,0"/>
             
